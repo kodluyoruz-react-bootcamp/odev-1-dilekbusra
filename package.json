@@ -1,0 +1,18 @@
+{
+  "name": "odev1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kodluyoruz-react-bootcamp/odev-1-dilekbusra.git",
+  "author": "dilekbusra <busrakandamar@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sucrase-node src/app.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "devDependencies": {
+    "sucrase": "^3.16.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
